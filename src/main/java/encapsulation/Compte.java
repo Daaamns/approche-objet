@@ -24,4 +24,11 @@ public class Compte {
     public double getSolde() {
         return solde;
     }
+
+    @Override
+    public String toString() {
+        return "Compte " +
+                "\n Numero de compte : " + compteNum +
+                "\n Solde de compte : " + solde;
+    }
 }

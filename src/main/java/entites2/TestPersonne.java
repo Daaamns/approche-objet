@@ -14,6 +14,7 @@ public class TestPersonne {
         personne2.afficherPersonne();
 
         personne1.setAdresse(adresse2);
+        System.out.println(personne1.adresse);
 
         System.out.println("Nouvelle adresse de " + personne1.getNom() + ": " + personne1.getAdresse());
         System.out.println("Adresse de " + personne2.getNom() + ": " + personne2.getAdresse());
