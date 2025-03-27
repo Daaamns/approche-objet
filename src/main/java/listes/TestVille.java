@@ -28,7 +28,7 @@ public class TestVille {
                 .orElse(null);
 
         if (villeMoinsHabitant != null) {
-            villes.remove(villeMoinsHabitant); // Supprimer la ville
+            villes.remove(villeMoinsHabitant);
 //            System.out.println("La ville " + villeMoinsHabitant + " a été supprimée.");
         }
 

@@ -10,7 +10,7 @@ public class Ville implements Comparable<Ville>{
     }
 
     public int getNbHabitant() {
-        return nbHabitant; // Getter pour nbHabitant
+        return nbHabitant;
     }
 
     @Override
