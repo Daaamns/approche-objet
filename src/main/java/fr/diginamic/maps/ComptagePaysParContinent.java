@@ -10,7 +10,7 @@ import java.util.Map;
 public class ComptagePaysParContinent {
     public static void main(final String[] args) {
 
-        List<Pays> pays = new ArrayList<Pays>();
+        List<Pays> pays = new ArrayList<>();
         pays.add(new Pays("France",65_000_000,"Europe" ));
         pays.add(new Pays("Allemagne",80_000_000,"Europe" ));
         pays.add(new Pays("Belgique",10_000_000,"Europe" ));

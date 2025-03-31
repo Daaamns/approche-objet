@@ -19,9 +19,11 @@ public class CreationEtManipulationMap {
             System.out.println(key);
         }
 
-        for (String data : mapVilles.values()) {
-            System.out.println(data);
-        }
+        mapVilles.values().forEach(System.out::println);
+
+//        for (String data : mapVilles.values()) {
+//            System.out.println(data);
+//        }
 
         System.out.println(mapVilles.size());
     }

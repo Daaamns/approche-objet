@@ -8,11 +8,11 @@ public class MapVilles {
     public static void main(String[] args) {
         HashMap<String, Ville> map = new HashMap<>();
 
-        map.put("Nice", new Ville("Nice", 343000));
-        map.put("Carcassonne", new Ville("Carcassonne", 47800));
-        map.put("Narbonne", new Ville("Narbonne", 53400));
-        map.put("Lyon", new Ville("Lyon", 484000));
-        map.put("Foix", new Ville("Foix", 9700));
+        map.put("aaa", new Ville("Nice", 343000));
+        map.put("bbb", new Ville("Carcassonne", 47800));
+        map.put("ccc", new Ville("Narbonne", 53400));
+        map.put("ddd", new Ville("Lyon", 484000));
+        map.put("eee", new Ville("Foix", 9700));
 
 
         Map.Entry<String, Ville> villeMin = Collections.min(
@@ -21,7 +21,9 @@ public class MapVilles {
         );
 
         // Supprimer la ville trouvée
+        System.out.println(map.size());
         map.remove(villeMin.getKey());
+        System.out.println(map.size());
 
         System.out.println("La ville supprimée est : " + villeMin.getKey());
 

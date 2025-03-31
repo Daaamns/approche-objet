@@ -20,7 +20,7 @@ public class Ville implements Comparable<Ville>{
 
     @Override
     public int compareTo(Ville ville) {
-//        return this.nom.compareTo(ville.nom);
-        return Integer.compare(this.nbHabitant, ville.nbHabitant);
+//       return this.nom.compareTo(ville.nom);
+         return Integer.compare(this.nbHabitant, ville.nbHabitant);
     }
 }
