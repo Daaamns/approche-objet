@@ -36,7 +36,7 @@ public class TestVille {
 
 
 //        Méthode simple
-//        for (Ville ville : villes) {
+//        for (City ville : villes) {
 //            if (ville.nbHabitant > 100000) {
 //                ville.nom = ville.nom.toUpperCase();
 //            }

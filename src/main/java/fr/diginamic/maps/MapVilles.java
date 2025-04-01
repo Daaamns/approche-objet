@@ -32,10 +32,10 @@ public class MapVilles {
         map.forEach((key, value) -> System.out.println(key + " - " + value.getNbHabitant() + " habitants"));
 
 //        int minHabitants = Integer.MAX_VALUE;
-//        Iterator<Ville> iterator = map.values().iterator();
+//        Iterator<City> iterator = map.values().iterator();
 //        while (iterator.hasNext()) {
-//            Ville ville = iterator.next();
-//            Ville villeToRemove;
+//            City ville = iterator.next();
+//            City villeToRemove;
 //            if (iterator.next().getNbHabitant() < ville.getNbHabitant()) {
 //                villeToRemove = iterator.next();
 //            }
